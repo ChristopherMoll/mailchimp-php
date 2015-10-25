@@ -1,0 +1,30 @@
+{
+  "name": "cmoll/mailchimp-php",
+  "description": "Guzzle-based API wrapper for Mailchimp API v3+",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "http://www.example.com",
+  "authors": [
+    {
+      "name": "Christopher Moll",
+      "email": "senormoll@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "~4.2"
+  },
+  "require": {
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MailChimpPHP\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MailChimpPHP\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev"
+}
